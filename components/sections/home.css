@@ -1,0 +1,5 @@
+.profileImage{
+    height: 400px;
+    clip-path: circle(50%);
+    filter: grayscale(0.3);
+}
