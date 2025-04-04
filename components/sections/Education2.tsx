@@ -25,7 +25,7 @@ export default function Education2() {
                     </svg>
                     <h2 className="mb-0 ms-2">Education</h2>
                   </div>
-                  <div className="d-flex flex-column h-100 position-relative mt-5">
+                  <div className="d-flex flex-column h-100 position-relative mt-5 education">
                     <ul className="ps-3">
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
