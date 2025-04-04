@@ -134,7 +134,7 @@ export default function Contact2() {
                 </div>
                 <div className="ps-3 h-100">
                   <span className="text-400 fs-6">Address</span>
-                  <h6 className="mb-0">Navi Mumbai</h6>
+                  <h6 className="mb-0">Navi Mumbai, Maharashtra, India</h6>
                 </div>
                 <a
                   href="https://maps.app.goo.gl/txTBiv2PP52qgqeH7"
