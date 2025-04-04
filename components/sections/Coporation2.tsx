@@ -122,9 +122,9 @@ export default function Coporation2() {
 												<div className="circle-1 position-relative z-0">
 													<div className="circle-2 position-absolute top-50 start-50 translate-middle z-1">
 														<div className="position-absolute top-50 start-50 translate-middle z-2">
-															<img className="w-100 h-100 rounded-circle" src="assets/imgs/coporation/avatar.png" alt="zelio" />
+															<img className="rounded-circle" style={{width:"150px", height: "45px"}} src="assets/imgs/aman.jpg" alt="aman-img" />
 															<svg className="text-primary-2 position-absolute bottom-0 end-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 5 6" fill="none">
-																<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
+																<circle cx="3" cy={3} r="2.5" fill="#A8FF53" />
 															</svg>
 														</div>
 													</div>
@@ -132,16 +132,16 @@ export default function Coporation2() {
 											</div>
 											<div className="d-flex flex-column gap-2">
 												<Link href="#">
-													<i className="ri-skype-fill" />
-													<span className="text-300">[skype] <span className="text-secondary-2">james.dev</span></span>
+													<i className="ri-github-fill" />
+													<span className="text-300">[github] <span className="text-secondary-2">verma2510</span></span>
 												</Link>
 												<Link href="#">
 													<i className="ri-phone-fill" />
-													<span className="text-300">[phone] <span className="text-secondary-2">+1-234-567-8901</span></span>
+													<span className="text-300">[phone] <span className="text-secondary-2">+91 9167682410</span></span>
 												</Link>
 												<Link href="#">
 													<i className="ri-mail-fill" />
-													<span className="text-300">[email] <span className="text-secondary-2">contact@james.dev</span></span>
+													<span className="text-300">[email] <span className="text-secondary-2">verma.aman1008@gmail.com</span></span>
 												</Link>
 											</div>
 										</div>
