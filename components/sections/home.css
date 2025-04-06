@@ -24,6 +24,10 @@
   font-size: 1.5rem;
 }
 
+/* .course-logo img{
+  color: #62a92b !important;
+} */
+
 @media screen and (max-width: 991.5px) {
   .education{
     background-color: lightgreen;
