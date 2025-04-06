@@ -60,9 +60,9 @@ export default function Experience2() {
                         href="#"
                         className="technology border border-1 rounded-3 p-3"
                       >
-                        <div className="d-flex align-items-center gap-2">
+                        <div className="d-flex align-items-center gap-2 accordo-div">
                           <img
-                            src="http://accordo.ai/assets/logo-C9_SRjmA.svg"
+                            src="/assets/imgs/accordo-ai.svg"
                             alt="accordo"
                             className="accordo-logo"
                           />
@@ -126,7 +126,11 @@ export default function Experience2() {
                           Collaborated with development teams on GitHub
                         </span>{" "}
                         to integrate new web features seamlessly, ensuring
-                        efficient <span className="text-secondary-2">version control </span> and deployment.
+                        efficient{" "}
+                        <span className="text-secondary-2">
+                          version control{" "}
+                        </span>{" "}
+                        and deployment.
                       </li>
                     </ul>
                     <div className="d-flex flex-wrap align-items-center gap-3 mt-7">

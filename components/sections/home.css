@@ -12,8 +12,16 @@
 }
 
 .accordo-logo{
+    position: relative;
     width: 100px;
     height: 100px;
+    top: -10px ;
+    /* outline: 1px solid red; */
+}
+
+.carouselTicker__item, .list-inline-item{
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 991.5px) {
