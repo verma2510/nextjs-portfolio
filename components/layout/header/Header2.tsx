@@ -46,7 +46,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" href="#services">
+                          <Link className="nav-link" href="#portfolio">
                             Services
                           </Link>
                         </li>
@@ -56,8 +56,8 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" href="#blog">
-                            Blog
+                          <Link className="nav-link" href="#coporation">
+                            Projects
                           </Link>
                         </li>
                         <li className="nav-item">

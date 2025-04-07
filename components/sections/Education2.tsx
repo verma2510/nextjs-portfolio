@@ -6,7 +6,7 @@ export default function Education2() {
           <div className="row">
             <div className="col-lg-6 pt-3">
               <div className="rounded-3 border border-1 position-relative h-100 overflow-hidden">
-                <div className="box-linear-animation p-md-6 p-3 ">
+                <div className="box-linear-animation p-md-6 p-3 h-100">
                   <div className="d-flex align-items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

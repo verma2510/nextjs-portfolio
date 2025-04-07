@@ -36,10 +36,10 @@ export default function Coporation2() {
                       <Marquee className="carouselTicker carouselTicker-left position-relative z-1">
                         <ul className="carouselTicker__list m-0">
                           <li className="carouselTicker__item">
-							Discover Dish
+                            Discover Dish
                           </li>
                           <li className="carouselTicker__item">
-                           User Authentication
+                            User Authentication
                           </li>
                           <li className="carouselTicker__item">
                             Finance Dashboard
@@ -47,9 +47,7 @@ export default function Coporation2() {
                           <li className="carouselTicker__item">
                             AI-based ChatBot
                           </li>
-                          <li className="list-inline-item">
-                            Admin Dashboard
-                          </li>
+                          <li className="list-inline-item">Admin Dashboard</li>
                         </ul>
                       </Marquee>
                       <Marquee
@@ -67,7 +65,7 @@ export default function Coporation2() {
                             CogniqEdge Website
                           </li>
                           <li className="carouselTicker__item">
-                           NextJS-Portfolio
+                            NextJS-Portfolio
                           </li>
                         </ul>
                       </Marquee>
@@ -97,33 +95,24 @@ export default function Coporation2() {
                           </div>
                         </div>
                       </div>
-                      <div className="d-flex flex-column gap-2">
-                        <Link href="#">
-                          <i className="ri-github-fill" />
-                          <span className="text-300">
-                            [github]{" "}
-                            <span className="text-secondary-2">verma2510</span>
+                        <div className="d-flex flex-column gap-2">
+                        <Link href="#" className="d-flex align-items-center gap-2">
+                          <i className="ri-github-fill"/>
+                          <span className="text-secondary-2">verma2510</span>
+                        </Link>
+                        <Link href="#" className="d-flex align-items-center gap-2">
+                          <i className="ri-phone-fill"/>
+                          <span className="text-secondary-2">
+                          +91 9167682410
                           </span>
                         </Link>
-                        <Link href="#">
-                          <i className="ri-phone-fill" />
-                          <span className="text-300">
-                            [phone]{" "}
-                            <span className="text-secondary-2">
-                              +91 9167682410
-                            </span>
+                        <Link href="#" className="d-flex align-items-center gap-2">
+                          <i className="ri-mail-fill"/>
+                          <span className="text-secondary-2">
+                          verma.aman1008@gmail.com
                           </span>
                         </Link>
-                        <Link href="#">
-                          <i className="ri-mail-fill" />
-                          <span className="text-300">
-                            [email]{" "}
-                            <span className="text-secondary-2">
-                              verma.aman1008@gmail.com
-                            </span>
-                          </span>
-                        </Link>
-                      </div>
+                        </div>
                     </div>
                   </div>
                   <div className="position-absolute d-none d-md-block decorate">
