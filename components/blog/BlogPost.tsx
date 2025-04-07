@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react"
 import data from "../../util/blog.json"
 import BlogCard1 from "./BlogCard1"
 import BlogCard2 from "./BlogCard2"
-import BlogCard3 from "./BlogCard3"
 import Pagination from "./Pagination"
 
 interface BlogPostProps {
@@ -69,7 +68,6 @@ export default function BlogPost({ style, showItem, showPagination }: BlogPostPr
                     {!style && <BlogCard1 item={item} />}
                     {style === 1 && <BlogCard1 item={item} />}
                     {style === 2 && <BlogCard2 item={item} />}
-                    {style === 3 && <BlogCard3 item={item} />}
                 </React.Fragment>
             ))}
 
