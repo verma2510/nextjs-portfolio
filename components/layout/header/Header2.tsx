@@ -56,8 +56,8 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" href="#coporation">
-                            Projects
+                          <Link className="nav-link" href="#git-journaling">
+                            Git
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -70,12 +70,6 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
                   </div>
                   <div className="navbar-social d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
                     <div className="d-md-flex d-none gap-3">
-                      {/* <Link href="/http://facebook.com">
-											<i className="ri-facebook-circle-fill fs-18" />
-										</Link>
-										<Link href="/http://twitter.com">
-											<i className="ri-twitter-x-fill fs-18" />
-										</Link> */}
                       <Link href="https://www.linkedin.com/in/aman-verma-96802622b/">
                         <i className="ri-linkedin-fill fs-18" />
                       </Link>

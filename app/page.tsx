@@ -11,17 +11,17 @@ import Education2 from "@/components/sections/Education2"
 export default function Home() {
 
 	return (
-		<>
-			<Layout headerStyle={2} footerStyle={2}>
-				<Home2 />
-				<Static2 />
-				<Coporation2/>
-				<Experience2/>
-				<Education2/>
-				<Projects2 />
-				<Skills2 /><br/>
-				<Contact2 />
-			</Layout>
-		</>
-	)
+    <>
+      <Layout headerStyle={2} footerStyle={2}>
+        <Home2 />
+        <Skills2 /><br/>
+        <Static2 />
+        <Coporation2 />
+        <Experience2 />
+        <Education2 />
+        <Projects2 /> <br/>
+        <Contact2 />
+      </Layout>
+    </>
+  );
 }

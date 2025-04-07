@@ -209,9 +209,7 @@ export default function Skills2() {
                                   <p className="text-dark text-nowrap mb-0">
                                     Others:
                                   </p>
-                                  <span className="text-300">
-                                    RESTful APIs
-                                  </span>
+                                  <span className="text-300">RESTful APIs</span>
                                 </div>
                               </li>
                             </ul>

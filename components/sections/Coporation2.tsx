@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 export default function Coporation2() {
 	return (
     <>
-      <section className="section-coporation">
+      <section className="section-coporation" id="git-journaling">
         <div className="container pt-5">
           <div className="row">
             <div className="col-lg-8">
@@ -47,7 +47,9 @@ export default function Coporation2() {
                           <li className="carouselTicker__item">
                             AI-based ChatBot
                           </li>
-                          <li className="list-inline-item">Admin Dashboard</li>
+                          <li className="carouselTicker__item">
+                            Admin Dashboard
+                          </li>
                         </ul>
                       </Marquee>
                       <Marquee
@@ -95,24 +97,33 @@ export default function Coporation2() {
                           </div>
                         </div>
                       </div>
-                        <div className="d-flex flex-column gap-2">
-                        <Link href="#" className="d-flex align-items-center gap-2">
-                          <i className="ri-github-fill"/>
+                      <div className="d-flex flex-column gap-2">
+                        <Link
+                          href="#"
+                          className="d-flex align-items-center gap-2"
+                        >
+                          <i className="ri-github-fill" />
                           <span className="text-secondary-2">verma2510</span>
                         </Link>
-                        <Link href="#" className="d-flex align-items-center gap-2">
-                          <i className="ri-phone-fill"/>
+                        <Link
+                          href="#"
+                          className="d-flex align-items-center gap-2"
+                        >
+                          <i className="ri-phone-fill" />
                           <span className="text-secondary-2">
-                          +91 9167682410
+                            +91 9167682410
                           </span>
                         </Link>
-                        <Link href="#" className="d-flex align-items-center gap-2">
-                          <i className="ri-mail-fill"/>
+                        <Link
+                          href="#"
+                          className="d-flex align-items-center gap-2"
+                        >
+                          <i className="ri-mail-fill" />
                           <span className="text-secondary-2">
-                          verma.aman1008@gmail.com
+                            verma.aman1008@gmail.com
                           </span>
                         </Link>
-                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="position-absolute d-none d-md-block decorate">

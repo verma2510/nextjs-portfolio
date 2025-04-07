@@ -4,8 +4,6 @@
     filter: grayscale(0.3);
 }
 
-
-
 .nextgen-logo{
     width: 100px;
     height: 50px;
@@ -19,10 +17,16 @@
     /* outline: 1px solid red; */
 }
 
-.carouselTicker__item, .list-inline-item{
+.carouselTicker__item{
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.carouselTicker__item.mt-6{
+  font-weight: 100;
+  font-size: 1rem;
+}
+
 
 /* .course-logo img{
   color: #62a92b !important;
