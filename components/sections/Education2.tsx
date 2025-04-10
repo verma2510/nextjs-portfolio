@@ -23,22 +23,23 @@ export default function Education2() {
                     </svg>
                     <h2 className="mb-0 ms-2">Education</h2>
                   </div>
-                  <div className="d-flex flex-column h-100 position-relative mt-5 education">
+                  <div className="d-flex flex-column h-100 position-relative mt-5">
                     <ul className="ps-3">
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">
-                            2020-2024:
-                            <br />
-                            <img
-                              width="16"
-                              height="16"
-                              style={{ marginLeft: "-5px" }}
-                              src="https://img.icons8.com/officexs/16/marker.png"
-                              alt="marker"
-                            />
-                            Chembur
-                          </p>
+                          <div className="text-300 text-nowrap d-flex flex-column fw-regular mb-0">
+                            <span>2020-2024:</span>
+
+                            <span>
+                              <img
+                                width="16"
+                                height="16"
+                                style={{ marginLeft: "-5px" }}
+                                src="https://img.icons8.com/officexs/16/marker.png"
+                                alt="marker"
+                              />
+                              Chembur</span>
+                          </div>
                           <div>
                             <span className="text-primary-2">
                               Vivekanand Education Society's Institute of
@@ -56,9 +57,18 @@ export default function Education2() {
                       </li>
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">
-                            2022-2024:
-                          </p>
+                          <div className="text-300 text-nowrap d-flex flex-column fw-regular mb-0">
+                            <span>2022-2024:</span>
+                            <span>
+                              <img
+                                width="16"
+                                height="16"
+                                style={{ marginLeft: "-5px" }}
+                                src="https://img.icons8.com/officexs/16/marker.png"
+                                alt="marker"
+                              />
+                              Chembur</span>
+                          </div>
                           <div>
                             <span className="text-primary-2">
                               Vivekanand Education Society's Institute of
@@ -75,18 +85,21 @@ export default function Education2() {
                       </li>
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">
+                          <div className="text-300 text-nowrap d-flex flex-column fw-regular mb-0">
                             2019-2020:
-                            <br />
-                            <img
-                              width="16"
-                              height="16"
-                              style={{ marginLeft: "-5px" }}
-                              src="https://img.icons8.com/officexs/16/marker.png"
-                              alt="marker"
-                            />
-                            Panvel
-                          </p>
+
+                            <span>
+                              <img
+                                width="16"
+                                height="16"
+                                style={{ marginLeft: "-5px" }}
+                                src="https://img.icons8.com/officexs/16/marker.png"
+                                alt="marker"
+                              />
+                              Panvel
+                            </span>
+
+                          </div>
                           <div>
                             <span className="text-primary-2">H.S.C.</span>
                             <p className="text-dark">
@@ -98,18 +111,21 @@ export default function Education2() {
                       </li>
                       <li className="position-relative z-1 mb-3">
                         <div className="d-flex gap-2">
-                          <p className="text-300 text-nowrap fw-regular mb-0">
+                          <div className="text-300 text-nowrap d-flex flex-column fw-regular mb-0">
                             2017-2018:
-                            <br />
-                            <img
-                              width="16"
-                              height="16"
-                              style={{ marginLeft: "-5px" }}
-                              src="https://img.icons8.com/officexs/16/marker.png"
-                              alt="marker"
-                            />
-                            Panvel
-                          </p>
+
+                            <span>
+                              <img
+                                width="16"
+                                height="16"
+                                style={{ marginLeft: "-5px" }}
+                                src="https://img.icons8.com/officexs/16/marker.png"
+                                alt="marker"
+                              />
+                              Panvel
+                            </span>
+
+                          </div>
                           <div>
                             <span className="text-primary-2">S.S.C.</span>
                             <p className="text-dark">
@@ -149,9 +165,9 @@ export default function Education2() {
                           </span>
                           <p className="text-dark">
                             Mastered full-stack development using the MERN
-                            stack, Git, and advanced JavaScript concepts. <br/>Built
+                            stack, Git, and advanced JavaScript concepts. <br />Built
                             dynamic, production-ready web applications for
-                            real-world use cases and freelance projects. <br/>Covers
+                            real-world use cases and freelance projects. <br />Covers
                             HTML, CSS, Tailwind, Node, React, MongoDB, Prisma,
                             Deployment etc
                           </p>
