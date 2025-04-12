@@ -1,6 +1,54 @@
+"use client";
 
+import React, { use, useState } from "react";
+import axios from "axios";
 
 export default function Contact2() {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e: React.ChangeEvent< HTMLInputElement| HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    try {
+      const response = await axios.post(
+        "http://localhost:8080/send-email",
+        formData
+      );
+      if (response.status === 200) {
+        setStatus("Email sent successfully!");
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setStatus("Failed to send email. Please try again.");
+    }
+  };
+
+
 	return (
     <>
       <section
@@ -13,7 +61,7 @@ export default function Contact2() {
               <div className="position-relative">
                 <div className="position-relative z-2">
                   <h3 className="text-primary-2 mb-3">Let’s connect</h3>
-                  <form action="#">
+                  <form onSubmit={handleSubmit}>
                     <div className="row g-3">
                       <div className="col-md-6 ">
                         <input
@@ -23,6 +71,8 @@ export default function Contact2() {
                           name="name"
                           placeholder="Your name"
                           aria-label="username"
+                          value={formData.name}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="col-md-6">
@@ -33,6 +83,8 @@ export default function Contact2() {
                           name="phone"
                           placeholder="Phone"
                           aria-label="phone"
+                          value={formData.phone}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="col-md-6">
@@ -43,6 +95,8 @@ export default function Contact2() {
                           name="email"
                           placeholder="Emaill"
                           aria-label="email"
+                          value={formData.email}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="col-md-6">
@@ -53,6 +107,8 @@ export default function Contact2() {
                           name="subject"
                           placeholder="Subject"
                           aria-label="subject"
+                          value={formData.subject}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="col-12">
@@ -63,6 +119,8 @@ export default function Contact2() {
                           placeholder="Message"
                           aria-label="With textarea"
                           defaultValue={""}
+                          value={formData.message}
+                          onChange={handleChange}
                         />
                       </div>
                       <div className="col-12">
@@ -76,6 +134,7 @@ export default function Contact2() {
                       </div>
                     </div>
                   </form>
+                  {status && <p className="mt-3">{status}</p>}
                 </div>
                 <div className="z-0 bg-primary-dark rectangle-bg z-1 rounded-3" />
               </div>
