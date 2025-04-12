@@ -29,7 +29,7 @@ export default function Contact2() {
 
     try {
       const response = await axios.post(
-        "https://nextjs-portfolio-production-834e.up.railway.app/send-email",
+        "https://portfolio-backend-production-fd76.up.railway.app/send-email",
         formData
       );
       if (response.status === 200) {
