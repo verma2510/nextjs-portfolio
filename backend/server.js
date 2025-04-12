@@ -23,14 +23,20 @@ app.post('/send-email', (req, res) => {
     const { name, phone, email, subject, message } = req.body;
     const mailOptions = {
       from: `${name} <${email}>`,
-      to: process.env.EMAIL,
+      to: "verma.aman1008@gmail.com", // recipient email
       replyTo: email,
-      name: name,
-      email: email,
-      phone: phone,
       subject: `Contact Form Submission: ${subject}`,
-      text: message,
-      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
+      text: `
+        You have received a new message from your Portfolio Contact Form.:`,
+      html: `
+        <h2 style="color: #4CAF50;">New Contact Form Submission</h2>
+        <p><strong style="color: #2196F3;">Name:</strong> ${name}</p>
+        <p><strong style="color: #2196F3;">Email:</strong> <a href="mailto:${email}" style="color: #FF5722;">${email}</a></p>
+        <p><strong style="color: #2196F3;">Phone:</strong> ${phone}</p>
+        <p><strong style="color: #2196F3;">Subject:</strong> ${subject}</p>
+        <h3 style="color: #FFC107;">Message:</h3>
+        <p style="color: #000;">${message.replace(/\n/g, '<br>')}</p>
+      `,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
