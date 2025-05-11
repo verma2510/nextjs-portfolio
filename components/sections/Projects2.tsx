@@ -61,8 +61,8 @@ export default function Projects2() {
                             <div className="col-lg-5">
                               <img
                                 className="w-100"
-                                src="assets/imgs/home-page-2/projects/img-1.png"
-                                alt="zelio"
+                                src="assets/imgs/projects/discover-dish.png"
+                                alt="discover-dish"
                               />
                             </div>
                             <div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
@@ -179,8 +179,8 @@ export default function Projects2() {
                             <div className="col-lg-5">
                               <img
                                 className="w-100"
-                                src="assets/imgs/home-page-2/projects/img-1.png"
-                                alt="zelio"
+                                src="assets/imgs/projects/finance-dashboard.png"
+                                alt="finance-dashboard"
                               />
                             </div>
                             <div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
